@@ -34,6 +34,7 @@ def main():
         screen.blit(bg_img_fl, [-x+1600, 0])
         screen.blit(bg_img, [-x+3200, 0])
         screen.blit(kt_img, kt_rct)
+        screen.blit(kt_img, kt_rct)
         pg.display.update()
         tmr += 1
         clock.tick(8000)
